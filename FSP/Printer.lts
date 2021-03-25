@@ -1,0 +1,30 @@
+const MAX_PAPERS = 3
+range PAPER_COUNT = 0..MAX_PAPERS
+const DEFAULT_NUM_OF_DOCS = 0
+
+//PRINTER process 
+PRINTER=PRINTER[MAX_PAPERS],
+PRINTER[p:PAPER_COUNT] = if(p>0)
+                      then
+                      (stuAccess -> stuRelease -> PRINTER[p-1])
+                       else
+                      (techAccess -> techRelease -> PRINTER[MAX_PAPERS]).
+
+
+//STUDENT process
+STUDENT(DOCUMENT_COUNT = DEFAULT_NUM_OF_DOCS) = STUDENTT[DOCUMENT_COUNT],
+STUDENTT[d:0..DOCUMENT_COUNT] = if(d>0)
+                                 then 
+                                 (stuAccess -> print[d] -> stuRelease -> STUDENTT[d-1])
+                                 else
+                                 END.
+                               
+                               
+//Technician Process
+TECHNICIAN = (check -> TECHNICIAN |  //always check
+              techAccess -> refill -> techRelease -> TECHNICIAN). //when printer can synchronize with techAccess shared action
+
+
+//Composite process
+||PRINTING_SYSTEM = (a:STUDENT(3) || b:STUDENT(2) || TECHNICIAN || {a,b}::PRINTER)/{techAccess/{a,b}.techAccess,techRelease/{a,b}.techRelease}. 
+//re-labelling these 3 actions to synchronize with TECHNICIAN, because they were modified due to process labeling prefix set {a,b}.

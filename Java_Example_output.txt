@@ -1,0 +1,125 @@
+04.09.36.405:[PRINTING_SYSTEM]Created Students Thread Group.
+04.09.36.407:[PRINTING_SYSTEM]Created Technicians Thread Group.
+04.09.36.409:[PRINTING_SYSTEM]Created instance of Laser Printer[ PrinterID: 1, Paper Level: 250, Toner Level: 500,Documents Printed: 0]
+04.09.36.411:[PRINTING_SYSTEM]Created 4 instances of Student named Hannah,Alex,Mary,Chris
+04.09.36.413:[PRINTING_SYSTEM]Created instance of PaperTechnician-John
+04.09.36.414:[PRINTING_SYSTEM]Created instance of TonerTechnician-Monica
+04.09.36.415:[PRINTING_SYSTEM]-Hannah Started.
+04.09.36.415:[PRINTING_SYSTEM]-Alex Started.
+04.09.36.415:[PRINTING_SYSTEM]-Mary Started.
+04.09.36.416:[PRINTING_SYSTEM]-Chris Started.
+04.09.36.416:[PRINTING_SYSTEM]-John Started.
+04.09.36.416:[PRINTING_SYSTEM]-Monica Started.
+04.09.36.417:[STUDENT]Alex-cwk1 Requested to Print (20 pages)
+04.09.36.417:[STUDENT]Chris-cwk1 Requested to Print (13 pages)
+04.09.36.417:[PRINTER]Printed Alex-cwk1
+04.09.36.418:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 230, Toner Level: 480,Documents Printed: 1]
+04.09.36.417:[TONER_TECHNICIAN] Requested to Replace Cartridge (Attempt 1)
+04.09.36.418:[STUDENT]Mary-cwk1 Requested to Print (6 pages)
+04.09.36.418:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.36.418:[PRINTER]Printed Chris-cwk1
+04.09.36.418:[PAPER_TECHNICIAN] Requested to Refill (Attempt 1)
+04.09.36.418:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 217, Toner Level: 467,Documents Printed: 2]
+04.09.36.418:[STUDENT]Hannah-cwk1 Requested to Print (4 pages)
+04.09.36.418:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.36.419:[PRINTER]Printed Hannah-cwk1
+04.09.36.419:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 213, Toner Level: 463,Documents Printed: 3]
+04.09.36.419:[PRINTER]Cannot Refill Papers Now, Please Wait.. 
+04.09.36.419:[PRINTER]Printed Mary-cwk1
+04.09.36.420:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 207, Toner Level: 457,Documents Printed: 4]
+04.09.36.420:[PRINTER]Cannot Refill Papers Now, Please Wait.. 
+04.09.36.420:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.36.494:[STUDENT]Alex-cwk2 Requested to Print (19 pages)
+04.09.36.494:[PRINTER]Printed Alex-cwk2
+04.09.36.494:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 188, Toner Level: 438,Documents Printed: 5]
+04.09.36.494:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.36.495:[PRINTER]Papers Refilled!
+04.09.36.495:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 238, Toner Level: 438,Documents Printed: 5]
+04.09.36.495:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.36.552:[STUDENT]Hannah-cwk2 Requested to Print (12 pages)
+04.09.36.552:[PRINTER]Printed Hannah-cwk2
+04.09.36.552:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 226, Toner Level: 426,Documents Printed: 6]
+04.09.36.552:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.36.842:[STUDENT]Alex-cwk3 Requested to Print (7 pages)
+04.09.36.842:[PRINTER]Printed Alex-cwk3
+04.09.36.842:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 219, Toner Level: 419,Documents Printed: 7]
+04.09.36.843:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.37.051:[STUDENT]Chris-cwk2 Requested to Print (20 pages)
+04.09.37.052:[PRINTER]Printed Chris-cwk2
+04.09.37.052:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 199, Toner Level: 399,Documents Printed: 8]
+04.09.37.052:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.37.115:[STUDENT]Alex-cwk4 Requested to Print (3 pages)
+04.09.37.115:[PRINTER]Printed Alex-cwk4
+04.09.37.116:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 196, Toner Level: 396,Documents Printed: 9]
+04.09.37.116:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.37.149:[STUDENT]Hannah-cwk3 Requested to Print (5 pages)
+04.09.37.149:[PRINTER]Printed Hannah-cwk3
+04.09.37.150:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 191, Toner Level: 391,Documents Printed: 10]
+04.09.37.150:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.37.227:[STUDENT]Mary-cwk2 Requested to Print (6 pages)
+04.09.37.227:[PRINTER]Printed Mary-cwk2
+04.09.37.227:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 185, Toner Level: 385,Documents Printed: 11]
+04.09.37.228:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.37.402:[PAPER_TECHNICIAN] Requested to Refill (Attempt 2)
+04.09.37.402:[PRINTER]Papers Refilled!
+04.09.37.403:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 235, Toner Level: 385,Documents Printed: 11]
+04.09.37.403:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.37.667:[STUDENT]Hannah-cwk4 Requested to Print (18 pages)
+04.09.37.667:[PRINTER]Printed Hannah-cwk4
+04.09.37.667:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 217, Toner Level: 367,Documents Printed: 12]
+04.09.37.667:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.37.689:[STUDENT]Chris-cwk3 Requested to Print (1 pages)
+04.09.37.689:[PRINTER]Printed Chris-cwk3
+04.09.37.689:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 216, Toner Level: 366,Documents Printed: 13]
+04.09.37.690:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.37.715:[STUDENT]Alex-cwk5 Requested to Print (6 pages)
+04.09.37.715:[PRINTER]Printed Alex-cwk5
+04.09.37.715:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 210, Toner Level: 360,Documents Printed: 14]
+04.09.37.715:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.37.833:[STUDENT]Chris-cwk4 Requested to Print (11 pages)
+04.09.37.833:[PRINTER]Printed Chris-cwk4
+04.09.37.833:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 199, Toner Level: 349,Documents Printed: 15]
+04.09.37.833:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.38.064:[PAPER_TECHNICIAN] Requested to Refill (Attempt 3)
+04.09.38.064:[PRINTER]Papers Refilled!
+04.09.38.064:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 249, Toner Level: 349,Documents Printed: 15]
+04.09.38.064:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.38.116:[STUDENT]Mary-cwk3 Requested to Print (3 pages)
+04.09.38.116:[PRINTER]Printed Mary-cwk3
+04.09.38.116:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 246, Toner Level: 346,Documents Printed: 16]
+04.09.38.116:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.38.178:[STUDENT]Chris-cwk5 Requested to Print (7 pages)
+04.09.38.178:[PRINTER]Printed Chris-cwk5
+04.09.38.178:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 239, Toner Level: 339,Documents Printed: 17]
+04.09.38.178:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.38.340:[PAPER_TECHNICIAN] Finished 3 Attempts
+04.09.38.452:[STUDENT]Mary-cwk4 Requested to Print (11 pages)
+04.09.38.452:[PRINTER]Printed Mary-cwk4
+04.09.38.452:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 228, Toner Level: 328,Documents Printed: 18]
+04.09.38.452:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.38.596:[STUDENT]Alex Printed All Docs.
+04.09.38.615:[STUDENT]Hannah-cwk5 Requested to Print (20 pages)
+04.09.38.615:[PRINTER]Printed Hannah-cwk5
+04.09.38.615:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 208, Toner Level: 308,Documents Printed: 19]
+04.09.38.615:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.38.991:[STUDENT]Chris Printed All Docs.
+04.09.39.177:[STUDENT]Mary-cwk5 Requested to Print (11 pages)
+04.09.39.177:[PRINTER]Printed Mary-cwk5
+04.09.39.177:[PRINTER]Current State of Printer: Laser Printer[ PrinterID: 1, Paper Level: 197, Toner Level: 297,Documents Printed: 20]
+04.09.39.177:[PRINTER]Cannot Replace Cartridge Now, Please Wait.. 
+04.09.39.186:[STUDENT]Hannah Printed All Docs.
+04.09.39.186:[PRINTING_SYSTEM]-Hannah Terminated.
+04.09.39.187:[PRINTING_SYSTEM]-Alex Terminated.
+04.09.39.846:[STUDENT]Mary Printed All Docs.
+04.09.39.846:[PRINTING_SYSTEM]-Mary Terminated.
+04.09.39.846:[PRINTING_SYSTEM]-Chris Terminated.
+04.09.44.178:[PRINTER]All Printing Over! No Need To Replace Toner. 
+04.09.44.496:[TONER_TECHNICIAN] Requested to Replace Cartridge (Attempt 2)
+04.09.44.496:[PRINTER]All Printing Over! No Need To Replace Toner. 
+04.09.45.465:[TONER_TECHNICIAN] Requested to Replace Cartridge (Attempt 3)
+04.09.45.465:[PRINTER]All Printing Over! No Need To Replace Toner. 
+04.09.46.132:[TONER_TECHNICIAN] Finished 3 Attempts
+04.09.46.132:[PRINTING_SYSTEM]-Monica-Paper Technician Terminated.
+04.09.46.132:[PRINTING_SYSTEM]-John-Toner Technician Terminated.
+
+Process finished with exit code 0
